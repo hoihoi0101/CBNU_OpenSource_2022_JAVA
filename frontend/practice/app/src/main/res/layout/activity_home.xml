@@ -58,13 +58,14 @@
         android:layout_height="0.05dp"
         android:layout_centerInParent="true"
         android:background="#BBBBBB"/>
+    <!--하단 바-->
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
-
+        <!-- 홈 버튼 -->
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -73,7 +74,7 @@
             android:layout_marginLeft="25dp"
             android:layout_marginRight="40dp"
             />
-
+        <!-- 즐겨찾기 버튼 -->
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -82,7 +83,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             />
-
+        <!-- 검색 버튼 -->
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
